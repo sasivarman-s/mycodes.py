@@ -1,0 +1,14 @@
+sem=int(input("Enter marks in semester: "))
+inter=int(input("Enter marks in internals: "))
+if(sem>=45) and (inter>=45):
+    tot=(sem+inter)/2
+    print(tot)
+    if(tot>=80):
+        print("Grade A")
+    elif(tot>=60):
+        print("Grade B")
+    else:
+        print("Grade C")
+else:
+    print("you got  some re-attempts")
+    
