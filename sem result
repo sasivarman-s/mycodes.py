@@ -11,4 +11,5 @@ if(sem>=45) and (inter>=45):
         print("Grade C")
 else:
     print("you got  some re-attempts")
+    print("thanks for visit")
     
